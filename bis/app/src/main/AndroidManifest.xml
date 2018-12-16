@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".DaftarCatatan"></activity>
+        <activity android:name=".TambahCatatan"></activity>
+        <activity android:name=".UpdateCatatan"></activity>
     </application>
 
 </manifest>

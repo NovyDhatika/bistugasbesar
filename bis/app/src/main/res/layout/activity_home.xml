@@ -4,54 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     tools:context=".HomeActivity">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2">
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Daftar Catatan Harian"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-        <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:background="@color/colorLightBrown"
-            android:src="@mipmap/ic_launcher"/>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:textSize="20dp"
-                android:textColor="@color/colorPrimary"
-                android:text="Good Afternoon Username!"
-                android:id="@+id/txv_greeting"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txv_greeting"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="20dp"
-                android:textStyle="italic"
-                android:hint="Wanna share something?"/>
-
-        </RelativeLayout>
-
-    </LinearLayout>
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="452dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"></ListView>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="POST!"
-        android:id="@+id/btn_post"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_marginTop="10dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@color/colorWhite"/>
+        android:id="@+id/button1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/plus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:onClick="button1click"
+        />
 
 </RelativeLayout>
