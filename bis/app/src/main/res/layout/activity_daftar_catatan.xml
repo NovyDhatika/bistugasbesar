@@ -9,12 +9,12 @@
     android:paddingTop="16dp">
 
 
-    <ImageView
+<!--    <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="@drawable/splash"
         android:id="@+id/gbr"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"/>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,9 +42,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="20dp"
+
         />
 
     <TextView
@@ -55,6 +56,15 @@
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignLeft="@+id/TextView02"
         android:text="Isi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView04"
+        android:id="@+id/textView4"
+        android:layout_marginTop="15dp"
+        />
+
     <TextView
         android:id="@+id/TextView02"
         android:layout_width="wrap_content"

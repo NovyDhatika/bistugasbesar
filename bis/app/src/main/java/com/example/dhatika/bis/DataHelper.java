@@ -20,7 +20,7 @@ public class DataHelper extends SQLiteOpenHelper {
       /*  String sql = "create table pasien(id_pasien integer primary key,nama text null, keluhan text null,id_dokter integer not null ,foreign key(id_dokter) references dokter(id_dokter));";
         Log.d("Data Pasien", "onCreate: " + sql);
         db.execSQL(sql);*/
-        String sql2 = "create table catatan(id_catatan integer primary key,tgl_catatan text, judul_catatan text, isi_catatan text not null);";
+        String sql2 = "create table catatan(id_catatan integer primary key autoincrement,tgl_catatan text, judul_catatan text, isi_catatan text not null);";
         Log.d("Data Catatan", "onCreate: " );
         db.execSQL(sql2);
         String sql3 = "INSERT INTO catatan(id_catatan, tgl_catatan, judul_catatan, isi_catatan)VALUES ('1', '2018-12-17','Tugasku', 'Lakukan amanah orang tua' );";

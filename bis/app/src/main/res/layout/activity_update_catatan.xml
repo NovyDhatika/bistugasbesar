@@ -32,20 +32,38 @@
         android:layout_below="@+id/editText1"
         android:layout_marginTop="10dp"
         android:text="Tanggal Catatan" />
-    <EditText
+  <!--  <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:inputType="text"
-        android:maxLength="20"/>
+        android:maxLength="20"/>-->
+
+    <Button
+        android:id="@+id/btnOpenDatePicker"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open date picker"/>
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:layout_below="@+id/btnOpenDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/tvTanggal"
+        android:layout_below="@+id/tvTanggal"
         android:layout_marginTop="10dp"
         android:text="Judul Catatan" />
     <EditText
@@ -70,12 +88,12 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView4"
         android:layout_below="@+id/textView4"
-        android:inputType="text"
-        android:maxLength="20"/>
-    <Spinner
+        android:inputType="text|textMultiLine"
+        android:maxLength="255"/>
+<!--    <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></Spinner>
+        android:layout_height="wrap_content"></Spinner>-->
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
