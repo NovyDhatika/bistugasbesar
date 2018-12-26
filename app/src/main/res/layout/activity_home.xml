@@ -8,8 +8,16 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
+    android:background="#7FFFD4"
     tools:context=".HomeActivity">
 
+    <ImageView
+        android:id="@+id/gbr"
+        android:layout_width="306dp"
+        android:layout_height="169dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/gambar1" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +43,7 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         style="?android:attr/borderlessButtonStyle"
-        android:background="@drawable/plus"
+        android:background="@drawable/plus1"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="150dp"

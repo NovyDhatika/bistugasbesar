@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
+    android:background="#7FFFD4"
     android:paddingRight="16dp"
     android:paddingTop="16dp">
 
@@ -25,6 +26,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Id Catatan" />-->
+    <ImageView
+        android:id="@+id/gbr"
+        android:layout_width="306dp"
+        android:layout_height="169dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/gambar1" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -111,5 +119,13 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/editText4"
         android:layout_alignEnd="@+id/editText4" />
+    <ImageView
+        android:id="@+id/gbr"
+        android:layout_width="306dp"
+        android:layout_height="169dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="71dp"
+        android:layout_toEndOf="@+id/TextView01"
+        android:background="@drawable/gambar1" />
 
 </RelativeLayout>
