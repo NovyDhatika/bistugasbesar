@@ -119,13 +119,5 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/editText4"
         android:layout_alignEnd="@+id/editText4" />
-    <ImageView
-        android:id="@+id/gbr"
-        android:layout_width="306dp"
-        android:layout_height="169dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="71dp"
-        android:layout_toEndOf="@+id/TextView01"
-        android:background="@drawable/gambar1" />
 
 </RelativeLayout>
